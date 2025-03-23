@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,15 +17,26 @@
         </nav>
     </header>
 
-    <section>
+    <section class="contact-container">
         <h2>Get in Touch</h2>
-        <p>Email: nedraphochieng@gmail.com</p>
-        <p>LinkedIn: <a href="#">Ned Raph Juma</a></p>
-        <p>GitHub: <a href="#">NedRaph.github.io</a></p>
+        <p>If you have any questions, feel free to reach out!</p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> nedraphochieng@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/ned-raph-juma-67b891282</a></p>
+            <p><strong>GitHub:</strong> <a href="#">https://NedRaph.github.io/JumaNedRaph.github.io</a></p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <p>© 2025 My Portfolio</p>
+        <p>© 2025 My Portfolio | Designed by Ned Raph Juma</p>
     </footer>
 </body>
 </html>
