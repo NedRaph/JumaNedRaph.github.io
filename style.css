@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, navy, black);
+    background: linear-gradient(to bottom, navy, black, darkred);
     height: 100vh; /* Full screen height */
     margin: 0;
     display: flex;
