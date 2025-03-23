@@ -1,18 +1,19 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: linear-gradient(to right, navy, maroon, purple);
+    color: white;
 }
 
 /* Header */
 header {
-    background: linear-gradient(90deg, #007bff, #0056b3);
+    background: linear-gradient(90deg, maroon, navy);
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 22px;
 }
 
 nav a {
@@ -20,10 +21,13 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    color: yellow;
+    background: purple;
+    transition: 0.3s;
 }
 
 /* Contact Section */
@@ -31,28 +35,31 @@ nav a:hover {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
     text-align: center;
+    color: black;
 }
 
 .contact-container h2 {
-    color: #007bff;
+    color: maroon;
 }
 
 .contact-info p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0;
+    font-weight: bold;
 }
 
 .contact-info a {
-    color: #007bff;
+    color: navy;
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact-info a:hover {
+    color: red;
     text-decoration: underline;
 }
 
@@ -66,9 +73,10 @@ nav a:hover {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 2px solid maroon;
     border-radius: 5px;
     font-size: 16px;
+    background: white;
 }
 
 .contact-form textarea {
@@ -76,26 +84,29 @@ nav a:hover {
 }
 
 .contact-form button {
-    background: #007bff;
+    background: red;
     color: white;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .contact-form button:hover {
-    background: #0056b3;
+    background: navy;
+    transition: 0.3s;
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: navy;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-weight: bold;
 }
